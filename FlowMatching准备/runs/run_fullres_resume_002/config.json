@@ -1,0 +1,27 @@
+{
+  "plan": "../ACT\u8bad\u7ec3\u51c6\u5907/plans/active_training_plan.json",
+  "act_stats": "../ACT\u8bad\u7ec3\u51c6\u5907/runs/run_001/dataset_stats.npz",
+  "camera_names": [
+    "left",
+    "top"
+  ],
+  "state_dim": 14,
+  "action_dim": 14,
+  "chunk_size": 30,
+  "image_size": [
+    480,
+    640
+  ],
+  "hidden_dim": 256,
+  "layers": 4,
+  "heads": 8,
+  "batch_size": 2,
+  "gradient_accumulation": 4,
+  "learning_rate": 0.0001,
+  "backbone_learning_rate": 1e-05,
+  "max_updates": 20000,
+  "validate_every": 250,
+  "save_every": 500,
+  "seed": 0,
+  "integration_steps": 10
+}
